@@ -1,0 +1,55 @@
+@media (min-width:940px) {
+    body {
+        background-image: url(../images/bg-desktop.svg);
+        background-size: cover;
+    }
+}
+
+@media (min-width:1200px) {
+    .header img {
+        width: 220px;
+    }
+
+    .infos {
+        flex-direction: row;
+    }
+
+    .infos .image {
+        width: 55%;
+    }
+
+    .infos .image img {
+        width: 100%;
+    }
+
+    .infos .infos-text {
+        text-align: left;
+        padding: 50px 50px 250px;
+        gap: 30px;
+        align-items: start;
+    }
+
+    .infos .infos-text h1 {
+        font-size: 50px;
+    }
+
+    .infos .infos-text p {
+        font-size: 20px;
+    }
+
+    .infos .infos-text a {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .footer {
+        margin: 0 100px;
+        justify-content: end;
+    }
+
+    .footer nav ul li a {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+}
